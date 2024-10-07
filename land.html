@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>LandCase</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="Lorenzo Angelino aka MrLolok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body class="land">
+
+    <form id="LandReport" action="./register.html" method="post">
+        <div class="box" id="box1">Personal credentails
+            <hr>
+            <div class="wrapper">
+                <div class="data">
+                    <input type="text" name="FirstName" required><label>First Name</label>
+                </div>
+            </div>
+            <br>
+            <div class="wrapper">
+                <div class="data">
+                    <input type="text" name="SecondName" required><label>Second Name</label>
+                </div>
+            </div>
+            <br>
+            <div class="wrapper">
+                <div class="data">
+                    <input type="number" name="Age" required><label>Age</label>
+                </div>
+            </div>
+            <br>
+            <div class="wrapper">
+                <div class="data">
+                    <input type="text" name="Residence" required><label>Residence</label>
+                </div>
+            </div>
+
+
+            <br>
+
+            <div class="box" id="box2">Land Details
+                <hr>
+                <div class="wrapper">
+                    <div class="data">
+                        <input type="text" name="landSerial" required><label>Land Serial Code</label>
+                    </div>
+                </div>
+                <br>
+                <div class="wrapper">
+                    <div class="data">
+                        <input type="text" name="TitleSerial" required><label>Title Deed Serial No.</label>
+                    </div>
+                </div>
+                <br>
+                <div class="wrapper">
+                    <div class="data">
+                        <input type="number" name="hectares" required><label>size of land in hectares</label>
+                    </div>
+                </div>
+                <br>
+                <div class="wrapper">
+                    <div class="data">
+                        <input type="text" placeholder="enter in form of 00N 00E 00S 00E " name="GPS" required><label>GPS
+                            Coordinate</label>
+                    </div>
+
+
+                    <br>
+
+
+                    <div class="box" id="box3">Suspects Details
+                        <hr>
+                        <div class="wrapper">
+                            <div class="data">
+                                <input type="text" name="FirstName2"><label>First Name</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="wrapper">
+                            <div class="data">
+                                <input type="text" name="SecondName2"><label>Second Name</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="wrapper">
+                            <div class="data">
+                                <input type="text" name="Residence2"><label>Residence</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="wrapper">
+                            <div class="data">
+                                <input type="text" name="Occupation"><label>Occupation</label>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+                    <textarea placeholder="Kindly !!!click here!!! to Give a brief of the case" id="placeholder" name="brief" cols="70" rows="7"
+                        required></textarea>
+                </div>
+
+                <input type="submit" value="Register" class="register-button" />
+    </form>
+
+
+    <script src="land.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+.home {
+
+    background-image: url(background.jpg);
+    min-height: 800px;
+    display: flex; 
+    background-position: center;
+    background-size: contain;
+     justify-content: space-around;
+     align-items: center;
+     background-repeat: round;
+    }
+
+.container {
+    
+    box-shadow: 12px 12px 12px #00000040, -10px -10px 10px rgb(8, 5, 185); 
+    width: 250px;
+    height: 300px;
+    
+    border-radius: 0.35em;
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    box-shadow: 0 3px 10px 0 rgba(5, 5, 5, 0.25);
+    background-position: center;
+    /* background-size: contain; */
+}
+.container span{
+  
+    color: rgb(250, 249, 249);
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+button
+.container:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.25), -10px -10px 10px green;
+    transform: scale(1.2);
+}
+
+/* #GBV {
+    background: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#land {
+    background: url(land.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.25), -10px -10px 10px rgb(247, 72, 3);
+    background-color: transparent;
+    width: 600px;
+    height: 350px;
+    border-radius: 0.35em;
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 999;
+    justify-content: space-around;
+    margin-left: 50px;
+    }
+
+
+textarea {
+    color: white;
+    background-color: #0c0c0c;
+}
+
+
+
+.land {
+    min-height: 800px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    background: url(land.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 350px;
+    padding: 0.15px;
+    padding-left: 100px;
+}
+
+.wrapper .data {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .data input {
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    font-size: 17px;
+    align-content: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(7, 223, 36);
+
+}
+
+.wrapper .data label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-weight: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.data input:focus~label,
+.data input:valid~label {
+    transform: translateY(-20px);
+    font-size: 10px;
+    color: rgb(7, 7, 7);
+    text-align: justify;
+}
+
+.box :focus {
+    backdrop-filter: blur(20px);
+}
+
+.GBV {
+    background-color: rgb(144, 144, 155);
+}
+
+
+.field{
+    position: relative;
+    
+    width: 280px;
+   
+    border-radius: 8px;
+    
+    min-height: 40px;
+    
+    margin-left: 20%;
+    padding-left: 1%;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.25), -10px -10px 10px rgb(5, 3, 2);
+
+}
+.draw input{
+    width: 50%;
+    margin-left: 5px;
+    
+ }
+
+
+     #line{
+        border-right: 1px solid;
+        
+        margin-right: 60%;
+        height: 70%;
+    }
+
+
+.txtarea{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+/* input,textarea,section{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+} */
+span{
+    font-family: 'Courier New', Courier, monospace;
+}
+.Lawyers{
+    display:flex;
+    background-color: crimson;
+    justify-content: space-between ;
+}
+
+.set{
+    position: relative;
+    border-radius: 50px;
+    width: 400px;
+    height: 250px;
+
+}
+
+#field3{
+    margin-top: 50%;
+    margin-left: 2%;
+}
+button{
+    border-radius: 10px;
+    background-color: grey;
+    
+}
+.Lawyer-box{
+    position: relative;
+    border-radius: 50px;
+    
+    width: 400px;
+    height: 250px;
+    margin-top: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Lawyer-box:focus{
+    
+    transform: translateY(-20px);
+}
+.a{
+    font-weight: 900;
+    margin-left: 90%;
+    margin-top: 50%;
+    
+}
+p{
+    text-align: center;
+}

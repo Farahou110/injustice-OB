@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="Lorenzo Angelino aka MrLolok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <form id="PropertyCase" action="./register.html" method="post">
+        <div class="box" id="box1">Personal credentails
+            <hr>
+            <div class="wrapper">
+                <div class="data">
+                    <input type="text" name="FirstName" required><label>First Name</label>
+                </div>
+            </div>
+            <br>
+            <div class="wrapper">
+                <div class="data">
+                    <input type="text" name="SecondName" required><label>Second Name</label>
+                </div>
+            </div>
+            <br>
+            <div class="wrapper">
+                <div class="data">
+                    <input type="number" name="Age" required><label>Age</label>
+                </div>
+            </div>
+            <br>
+            <div class="wrapper">
+                <div class="data">
+                    <input type="text" name="Residence" required><label>Residence</label>
+                </div>
+
+
+                <br>
+
+                <div class="box">Property <details>
+                        <hr>
+
+                        <div class="wrapper">
+                            <div class="data">
+                                <input type="text" name="Type" required><label>Item Name</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="wrapper">
+                            <div class="data">
+                                <input type="text" name="Location" required><label>Location of the Property</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="wrapper">
+                            <div class="data">
+                                <input type="number" name="worth" placeholder="worth in Dollars"
+                                    required><label>Approximate
+                                    worth</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="wrapper">
+                            <div class="data">
+                                <input type="text" placeholder="enter in form of 00N 00E 00S 00E " name="GPS"
+                                    required><label>GPS
+                                    Coordinate</label>
+                            </div>
+
+
+                            <br>
+                    </details>
+
+                    <div class="box">Suspects <details>
+                            <hr>
+                            <div class="wrapper">
+                                <div class="data">
+                                    <input type="text" name="FirstName2" required><label>First Name</label>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="wrapper">
+                                <div class="data">
+                                    <input type="text" name="SecondName2" required><label>Second Name</label>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="wrapper">
+                                <div class="data">
+                                    <input type="text" name="Residence2"><label>Residence</label>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="wrapper">
+                                <div class="data">
+                                    <input type="text" name="Occupation"><label>Occupation</label>
+                                </div>
+                            </div>
+                            <br>
+                    </div>
+                    <br>
+                    <textarea placeholder="Kindly !!!click here!!! to Give a brief of the case" id="placeholder"
+                        name="brief" cols="70" rows="7" required></textarea>
+                    </details>
+                </div>
+
+                <button type="submit" value="File Case" class="register-botton" />
+    </form>
+
+
+    <script src="property.js"></script>
+</body>
+
+</html>
